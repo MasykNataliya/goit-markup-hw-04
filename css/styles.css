@@ -119,6 +119,11 @@ img {
   margin: 0 auto;
  padding: 24px 156px;  висота формується падінгами у посиланнях */
   border-bottom: 1px solid #e7e9fc;
+  box-shadow:
+    0 1px 6px 0 rgba(46, 47, 66, 0.08),
+    0 1px 1px 0 rgba(46, 47, 66, 0.16),
+    0 2px 1px 0 rgba(46, 47, 66, 0.08);
+  background: #fff;
 }
 .site-header .container {
   display: flex;
@@ -212,13 +217,19 @@ img {
 /* #region hero */
 
 .hero {
-  background-color: #2e2f42;
+  /*background-color: #2e2f42;*/
   /*width: 1440px;*/
   /*height: 600px;*/
   display: flex;
   align-items: center;
   justify-content: center;
   padding: 188px 0;
+  background-image:
+    linear-gradient(to bottom, rgba(46, 47, 66, 0.7), rgba(46, 47, 66, 0.7)),
+    url("../images/heroimage.png");
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
 }
 
 .hero-title {
