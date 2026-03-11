@@ -466,8 +466,6 @@ img {
 }
 
 .portfolio-list {
-  /*width: 1116px;
-  height: 374px;*/
   display: flex;
   flex-wrap: wrap;
   align-items: center;
@@ -607,6 +605,7 @@ img {
   flex-direction: row;
   gap: 16px;
   margin: 0;
+  padding: 0;
 }
 
 /* #endregion footer */
