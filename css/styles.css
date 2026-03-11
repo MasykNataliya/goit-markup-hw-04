@@ -313,16 +313,14 @@ img {
   gap: 8px;
 }
 .feature-icon-frame {
+  width: 100%;
+  height: 112px;
   display: flex;
   align-items: center;
   justify-content: center;
   background: #f4f4fd;
   border: 1px solid #8e8f99;
   border-radius: 4px;
-  padding: 24px 99px;
-}
-
-.feature-title {
   margin-bottom: 8px;
 }
 
