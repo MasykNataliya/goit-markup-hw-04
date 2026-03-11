@@ -626,7 +626,8 @@ img {
   background-color: #404bbf;
 }
 
-.portfolio-img:hover .overlay .portfolio-img:focus .overlay {
+.portfolio-img:hover .overlay,
+.portfolio-img:focus .overlay {
   transform: translatey(0);
 }
 
