@@ -368,13 +368,13 @@ img {
 }
 
 .team-item-name {
-  width: 222px;
+  width: 100%;
   display: flex;
   align-items: center;
   justify-content: center;
   flex-direction: column;
   gap: 8px;
-  padding: 32px 16px;
+  padding: 7.5px 10px;
 }
 
 .team .contact-info {
@@ -520,11 +520,16 @@ img {
 }
 
 .overlay p {
+  display: inline-block;
   font-weight: 400;
   font-size: 16px;
   line-height: 1.5;
   letter-spacing: 0.02em;
   color: #f4f4fd;
+  padding-top: 40px;
+  text-align: left;
+  padding-left: 32px;
+  padding-right: 32px;
 }
 
 /* #endregion portfolio */
@@ -538,6 +543,7 @@ img {
 .site-footer .container {
   display: flex;
   justify-content: flex-start;
+  align-items: baseline;
 }
 
 .footer-logo {
@@ -632,8 +638,8 @@ img {
   transform: translatey(0);
 }
 
-.team-member:hover,
-.team-member:focus {
+.portfolio-item:hover,
+.portfolio-item:focus {
   box-shadow:
     0 2px 1px 0 rgba(46, 47, 66, 0.08),
     0 1px 1px 0 rgba(46, 47, 66, 0.16),
